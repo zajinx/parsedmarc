@@ -1,0 +1,3 @@
+Go to https://parsedmarc.example.com/app/management/kibana/objects click on Import.
+
+Import downloaded export.ndjson with override.
