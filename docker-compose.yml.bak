@@ -55,7 +55,6 @@ services:
     restart: unless-stopped
     networks:
       - parsedmarc-network
-      - default
     depends_on:
       elasticsearch:
         condition: service_healthy
@@ -63,6 +62,7 @@ services:
 
 networks:
     parsedmarc-network:
+      driver: bridge
 
 volumes:
   elasticsearch:
