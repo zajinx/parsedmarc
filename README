@@ -1,5 +1,3 @@
-
-## :information_source: Info
 This stack includes:
 - [ParseDMARC](https://domainaware.github.io/parsedmarc/) image to analizing reports (builded from Dockerfile, use pypy image)
 - [Elasticsearch & Kibana](https://www.elastic.co/guide/index.html) to store and visualize parsed data
@@ -73,3 +71,7 @@ Import downloaded export.ndjson with override.
 
 ## Dashboard Sample
 ![ParceDMARC-Sample](https://github.com/zajinx/parsedmarc/raw/master/ParceDMARC-Sample.png)
+
+## Credits to
+- https://github.com/dragoangel/parsedmarc-dockerized
+- https://github.com/domainaware/parsedmarc
